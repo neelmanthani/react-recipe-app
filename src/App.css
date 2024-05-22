@@ -13,6 +13,12 @@ header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+  font-family: "Playfair Display SC";
+  text-align: center;
+  font-size: 64px;
+}
+
 /* typography */
 
 html {
@@ -39,9 +45,9 @@ td {
 
 /* table */
 
+
 table {
   table-layout: fixed;
-  width: 100%;
   border-collapse: collapse;
   overflow:hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -54,7 +60,50 @@ table {
   text-overflow: ellipsis;
 }
 
+form table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
 /* Column Size for thead */
 
 
 /* Column size for tbody */
+
+
+form td:nth-child(-n+3) input{
+  width:70%;
+  text-align: left;
+}
+
+form td:nth-child(-n+3){
+  text-align: left;
+}
+
+td:nth-child(-n+3) {
+  width:10%;
+}
+
+td:nth-child(4) {
+  width:30%;
+}
+
+td:nth-child(5) {
+  width:30%;
+}
+
+td:nth-child(6) {
+  width:10%;
+}
+
+img {
+  width: 100%;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #fff0c7
+}
